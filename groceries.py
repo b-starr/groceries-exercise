@@ -1,6 +1,6 @@
 # groceries.py
 
-#from pprint import pprint
+from pprint import pprint
 
 products = [
     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
@@ -28,4 +28,20 @@ products = [
 print(products)
 # pprint(products)
 
+products_count = len(products)
+
+# "one string" + "another string"
+
+
+print ("----------")
+#print("THERE ARE 20 PRODUCTS:")
+#print("THERE ARE" +str(products_count) + "PRODUCTS:")
+print(f"THERE ARE {products_count} PRODUCTS:")
+print ("----------")
+
 # TODO: write some Python code here to produce the desired output
+
+# to do: sort the products
+
+for item in products:
+    print(item)
