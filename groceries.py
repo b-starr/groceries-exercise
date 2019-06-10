@@ -44,4 +44,5 @@ print ("----------")
 # to do: sort the products
 
 for item in products:
-    print(item)
+    #print(item)
+    print(item["name"])
